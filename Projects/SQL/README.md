@@ -14,9 +14,10 @@
 [6. Conclusions](https://github.com/Evgi23/dst_gigio/tree/main/Projects/SQL#conclusions)
 
 ### Project Description
-HeadHunter aims to develop a model capable of automatically estimating an applicant's approximate salary range based on the information provided in their resume. However, before building the model, the data must be thoroughly explored and cleaned
-We used following instruments in the project: Python (pandas, psycopg2), SQL
-We worked with 4 difrient tables: vacancies, employers, areas, industries.
+* HeadHunter aims to develop a model capable of automatically estimating an applicant's approximate salary range based on the information provided in their resume. However, before building the model, the data must be thoroughly explored and cleaned
+
+* We used following instruments in the project: Python (pandas, psycopg2), SQL
+* We worked with 4 difrient tables: vacancies, employers, areas, industries.
 :arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/tree/main/Projects/SQL#table-of-contents)
 
 ### What case we are solving?
