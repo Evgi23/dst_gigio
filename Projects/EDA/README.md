@@ -14,7 +14,8 @@
 [6. Conclusions](https://github.com/Evgi23/dst_gigio/tree/main/Projects/EDA#conclusions)
 
 ### Project Description
-One of the company's problems is dishonest hotels that inflate their ratings. One way to find such hotels is to build a model that predicts the hotel's rating. If the model's predictions differ greatly from the actual result, then the hotel may be cheating and should be checked.
+* One of the company's problems is dishonest hotels that inflate their ratings. One way to find such hotels is to build a model that predicts the hotel's rating. If the model's predictions differ greatly from the actual result, then the hotel may be cheating and should be checked. 
+* Used instruments: Python: Cleaning data (Numpy, Pandas), Data visualisation (Seaborn, Matplot), Feature Engineering (OrdinalEncoder, LabelEncoder, OneHotEncoder, BinaryEncode,  MinMaxScaler) ML (Sklearn - RandomForestRegressor) 
 
 :arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/tree/main/Projects/EDA#table-of-contents)
 
@@ -63,7 +64,15 @@ Kaggle competition [Booking reviews](https://www.kaggle.com/competitions/sf-book
 
 
 ### Project work stage
-None
+1. Data introduction - we studied the data and identified gaps
+2. Cleaning data from missing values - filled in the gaps in the longitude and latitude of the hotels
+3. Feature engineering - created new features: "hotel country", "seasonality", "number of days of stay", "number of rooms", "type of trip", "type of guest"
+4. Encoding categorical features - encoded all categorical features using OneHotEncoder, BinaryEncode and LabelEncoder
+5. Analyzing text reviews - using SentimentIntensityAnalyzer we rated positive and negative reviews
+6. Multicollinearity analysis - identified and removed multicolinear features
+7. Selecting features - selected the most important features that influence the target variable
+8. Data scaling - normalized features
+9. ML - built and trained a RandomForestRegressor model on the training set and made a prediction on the test set
 
 ### Result
 Result [here](https://github.com/Evgi23/dst_gigio/blob/main/Projects/EDA/EDA_project.ipynb)
