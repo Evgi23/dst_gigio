@@ -1,23 +1,23 @@
 # Project_4. Predicting deposit openings
 
 ## Table of contents
-[1. Project Description](https://github.com/Evgi23/dst_gigio/blob/main/README.md#project-description)
+[1. Project Description](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#project-description)
 
-[2. What case we are solving?](https://github.com/Evgi23/dst_gigio/blob/main/README.md#what-case-we-are-solving)
+[2. What case we are solving?](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#what-case-we-are-solving)
 
-[3. Short data information](https://github.com/Evgi23/dst_gigio/blob/main/README.md#short-data-information)
+[3. Short data information](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#short-data-information)
 
-[4. Project work stage](__)
+[4. Project work stage](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#project-work-stage)
 
-[5. Result](https://github.com/Evgi23/dst_gigio/blob/main/README.md#result)
+[5. Result](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#result)
 
-[6. Conclusions](https://github.com/Evgi23/dst_gigio/blob/main/README.md#conclusions)
+[6. Conclusions](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#conclusions)
 
 ### Project Description
 * This project aims to develop a machine learning model capable of predicting whether a bank client will subscribe to a term deposit. The analysis is based on historical data from a marketing campaign carried out by a bank, with the ultimate goal of improving campaign targeting and increasing deposit conversion rates.  
 * Python: Cleaning data (Numpy, Pandas), Data visualization (Seaborn, Matplot), Feature Engineering (OrdinalEncoder, LabelEncoder, OneHotEncoder, BinaryEncode, SelectKBest,  MinMaxScaler) ML (Sklearn - LogisticRegression, DecisionTreeClassifier, GridSearchCV, RandomForestClassifier, GradientBoostingClassifier, StackingClassifier)
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#table-of-contents)
 
 ### What case we are solving?
 The project consist of 5 parts:
@@ -53,7 +53,7 @@ The main objective of the project was to learn the following skills:
 
 * Feature transformation
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#table-of-contents)
 
 ### Short data information
 
@@ -68,9 +68,9 @@ This is real data collected from one of the top banks in the country
 
 
 ### Result
-Result [here](https://github.com/Evgi23/dst_gigio/blob/main/Project-1.ipynb)
+Result [here](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/Project_4_ML_eng.ipynb)
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#table-of-contents)
 
 ### Conclusions
 The machine learning models were developed to solve the classification task. Their performance on the test dataset is summarized below
@@ -86,4 +86,4 @@ The machine learning models were developed to solve the classification task. The
 The best results were achieved by the RandomForestClassifier model with hyperparameter optimization using Optuna: accuracy : 0.83 f1_score: 0.82
 
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/ML/README.md#table-of-contents)
