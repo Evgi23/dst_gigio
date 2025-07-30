@@ -1,7 +1,7 @@
 # Project_6. Customer segmentation for an online gift shop
 
 ## Table of contents
-[1. Project Description](https://github.com/Evgi23/dst_gigio/blob/main/README.md#project-description)
+[1. Project Description](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Clustering/README.md#project-description)
 
 [2. What case we are solving?](https://github.com/Evgi23/dst_gigio/blob/main/README.md#what-case-we-are-solving)
 
@@ -17,10 +17,10 @@
 * This project focuses on customer segmentation for a UK-based online retail company using real transactional data from 2010–2011. The goal is to cluster customers based on their purchasing behavior (recency, frequency, and monetary value) and define targeted engagement strategies. The workflow includes data preprocessing, exploratory analysis, feature engineering, and the development of machine learning models for clustering and behavior prediction.  
 * Python: Cleaning data (Numpy, Pandas), Data visualization (Seaborn, Matplot, Ploty), Feature Engineering (OrdinalEncoder, LabelEncoder, OneHotEncoder, BinaryEncode, SelectKBest, Pipeline, PCA, StandardScaler MinMaxScaler) ML (Sklearn - KMeans, DBSCAN, AgglomerativeClustering)
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Clustering/README.md#what-case-we-are-solving)
 
 ### What case we are solving?
-The project consist of 5 parts:
+The project consist of 4 parts:
 
 1. Part 1. Exploring the structure of the dataset;
 
@@ -66,11 +66,11 @@ The main objective of the project was to learn the following skills:
 
 * ML clustering
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Clustering/README.md#table-of-contents)
 
 ### Short data information
 
-However,[The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)  create a dataset containing actual transactions from 2010 and 2011 was created, and this is the one we’ll be working with in this case study
+[The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)  create a dataset containing actual transactions from 2010 and 2011 was created, and this is the one we’ll be working with in this case study
 
 ### Project work stage
 * Part 1 Exploring the structure of the dataset - we explored the structure and content of the dataset and performed basic preprocessing by conducting a statistical overview of numeric features, identifying the number of unique customers, determining the countries involved in transactions, checking for missing values and duplicates, and converting columns into appropriate formats such as datetime.
@@ -81,9 +81,9 @@ However,[The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/inde
 
 
 ### Result
-Result [here](https://github.com/Evgi23/dst_gigio/blob/main/Project-1.ipynb)
+Result [here]([https://github.com/Evgi23/dst_gigio/blob/main/Project-1.ipynb](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Clustering/PROJECT-6.__%D0%B0%D0%BD%D0%B3%D0%BB.ipynb))
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Clustering/README.md#table-of-contents)
 
 ### Conclusions
 **In this project, we analyzed customer data from an online gift store and built clustering models.
@@ -107,4 +107,4 @@ The AgglomerativeClustering algorithm identified two clusters:
 
 
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Clustering/README.md#table-of-contents)
