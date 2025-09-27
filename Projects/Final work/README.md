@@ -1,23 +1,23 @@
 # Project. «Лаборатории исследований гражданского общества». Определение уязвимых групп населения
 
 ## Table of contents
-[1. Project Description](https://github.com/Evgi23/dst_gigio/blob/main/README.md#project-description)
+[1. Project Description](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#project-description)
 
-[2. What case we are solving?](https://github.com/Evgi23/dst_gigio/blob/main/README.md#what-case-we-are-solving)
+[2. What case we are solving?](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#what-case-we-are-solving)
 
-[3. Short data information](https://github.com/Evgi23/dst_gigio/blob/main/README.md#short-data-information)
+[3. Short data information](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#short-data-information)
 
-[4. Project work stage](__)
+[4. Project work stage](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#project-work-stage)
 
-[5. Result](https://github.com/Evgi23/dst_gigio/blob/main/README.md#result)
+[5. Result](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/diplom.ipynb)
 
-[6. Conclusions](https://github.com/Evgi23/dst_gigio/blob/main/README.md#conclusions)
+[6. Conclusions](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#conclusions)
 
 ### Project Description
 * Задача проекта определить по статистическим данным уязвимые регионы и группы населения  
 * Python: Очистка данных (Numpy, Pandas), Визуализация (Seaborn, Matplot), Feature Engineering ( Pipeline, PCA,  StandardScaler) ML (Sklearn - KMeans, DBSCAN, AgglomerativeClustering, GaussianMixture, LogisticRegression, RandomForestClassifier, hyperopt, GridSearchCV)
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#table-of-contents)
 
 ### What case we are solving?
 Проект состоит из 4 частей:
@@ -55,11 +55,11 @@ The main objective of the project was to learn the following skills:
 
 * ML clustering, classifying
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#table-of-contents)
 
 ### Short data information
 
-However,[The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)  create a dataset containing actual transactions from 2010 and 2011 was created, and this is the one we’ll be working with in this case study
+Статистические данные о доходах, заболеваемости, социальнонезащищённых слоях населения России и другие экономические и демографические данные. [Росстат](http://ssl.rosstat.gov.ru/) и пр
 
 ### Project work stage
 * Часть 1. Знакомство с данными. Очистка от пропусков и дубликатов. Предварительный анализ данных - загрузили данные, отчистили от пропусков и дубликатов,преобразовали к единому формату название регионов, создали единый дата фрейм с средними статистическими показателями.
@@ -72,16 +72,17 @@ However,[The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/inde
 ### Result
 Result [here](https://github.com/Evgi23/dst_gigio/blob/main/Project-1.ipynb)
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#table-of-contents)
 
 ### Conclusions
 1. Мы провели кластеризацию и выявили:
 * уязвимые регионы - 'Республика Алтай', 'Республика Адыгея', 'Республика Бурятия', 'Республика Дагестан', 'Республика Ингушетия', 'Кабардино-Балкарская Республика', 'Республика Калмыкия', 'Карачаево-Черкесская Республика', 'Республика Крым', 'Республика Марий Эл', 'Республика Мордовия', 'Республика Северная Осетия-Алания', 'Республика Тыва', 'Чеченская Республика', 'Забайкальский край', 'Ставропольский край'
 * уязвимые группы населения - пожилые люди и дети до 16 лет, живущие в домах с неблогаприятными условиями.
 
-2. Провели классиикацию и добились результата accuracy 0.86,  f1-score 0.57. Теперь наш алгоритм готов к тому, чтобы предсказать, к какой группе относится человек с заданными стат показателями.
+2. Провели классификацию и добились результата accuracy 0.86,  f1-score 0.57. Теперь наш алгоритм готов к тому, чтобы предсказать, к какой группе относится человек с заданными стат показателями.
 
 
 
 
-:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/README.md#table-of-contents)
+
+:arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#table-of-contents)
