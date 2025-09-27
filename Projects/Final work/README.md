@@ -39,6 +39,8 @@
 
 **Quality metric**
 Visual Representation of the Clusters
+accuracy
+f1-score
 
 **What we practice**
 The main objective of the project was to learn the following skills:
@@ -86,3 +88,4 @@ Result [here](https://github.com/Evgi23/dst_gigio/blob/main/Project-1.ipynb)
 
 
 :arrow_up: [To Table of contents](https://github.com/Evgi23/dst_gigio/blob/main/Projects/Final%20work/README.md#table-of-contents)
+
